@@ -27,7 +27,7 @@ app.use(express.urlencoded({extended: false}));
 
 app.use(
   cors({
-    origin: '*',
+    origin: 'https://frontend-igti-grades-app.herokuapp.com',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: 'true',
     allowedHeaders: 
